@@ -1,1 +1,57 @@
+# claude-code-bootstrap@v2.29.0 managed
 ZSH-Terminal-DATA-Source files/
+
+# ====================================================
+# BOOTSTRAP-ADDED PATTERNS (2026-10-07)
+# Added by ~/claude-code-bootstrap.
+# Review and integrate with existing rules above as needed.
+# ====================================================
+!.env.example
+!.env.sample
+*.bak
+*.bak.*
+*.generated
+*.key
+*.log
+*.pem
+*.swp
+.DS_Store
+.claude-code-bootstrap/
+.claude/
+.env
+.env.*.local
+.env.local
+.idea/
+.vscode/
+AGENTS.md
+CLAUDE.md
+CURRENT-STATUS.md
+GEMINI.md
+MEMORY.md
+Thumbs.db
+
+# ====================================================
+# PROJECT: FOSS release hygiene (2026-10-07)
+# ====================================================
+# Draft / source docs (keep private)
+*.docx
+# Runtime artifacts the scripts create
+*.backup.*
+zshrc.backup.*
+p10k.backup.*
+.zsh-setup-backup/
+# Zsh caches / compiled
+.zcompdump*
+*.zwc
+# User-local overrides (secrets, machine-specific exports)
+*.local
+.zshrc.local
+*.local.zsh
+# Test / CI output
+tests/tmp/
+test-results/
+# Fonts at repo root (installer downloads + verifies them)
+/*.ttf
+# Working plans/specs and local reports (not product content)
+docs/superpowers/
+docs/reference/
