@@ -116,4 +116,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Security issues: see [SECURITY.md](SECUR
 
 ---
 
-Made with ❤️ for [loyla.ai](https://www.loyla.ai/) by **Arjun Ghosh**, Founder & CTO/CAIO @ 2026
+Made with ❤️ for [loyla.ai](https://www.loyla.ai/) by **Arjun Ghosh**, Founder & CTO/CAIO ([arjunghosh.github.io](https://arjunghosh.github.io/)), Made In India @ 2026
